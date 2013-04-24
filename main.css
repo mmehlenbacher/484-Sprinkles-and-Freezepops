@@ -1,0 +1,11 @@
+/*Kuler: blueberry pink blossom*/
+body{background-color: #81AEBA;}
+#wrap{margin: 0 10%;}
+h1{font-size: 1.8em; color: #DB6974; background: #303C5C;border-radius: 10px; padding: 2%; width: 90%;
+font-family: 'Days One', sans-serif;cursor: pointer; margin: 3% auto 2%;text-align: center;}
+h1 a{text-decoration: none; color: #DB6974;}
+#inner {background: #FFE8B7; border-radius: 10px; box-shadow: 6px 6px 6px #828282; padding: 2%; width: 90%; margin: 0 auto;}
+h2{font-size: 1.3em;border-bottom: 1px solid black; width: 27%;margin: 2% 2%;}
+table{ border: 1px solid black;margin: 2% 2%;}
+th,td{padding: 2%; border: 1px solid black;}
+#inner input.test{margin-left: 0; vertical-align: middle;}
