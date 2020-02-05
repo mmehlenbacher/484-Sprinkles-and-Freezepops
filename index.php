@@ -2,14 +2,15 @@
 	require_once('utility.php');
         $db_host = "localhost";
         $db_user = "mlm1034";
-        $db_pass = "mysqlpassword1222222301110000333ppp";
+        $db_pass = "mysqlpassword";
+        $db_name = "mlm1039411111110000avvvv";
 
         // Instantiate the mySQLi object
         ###->
         $mysqli= new mysqli($db_host,$db_user,$db_pass,$db_name);
         // Check connection
         if ( $mysqli->connect_error ) {
-                echo "Connection faidlejd: " . $mysqli->connect_error;
+                echo "Connection failed: " . $mysqli->connect_error;
                 exit;
         }
 	if(!empty($_POST['submit'])){
