@@ -1,6 +1,10 @@
 <?php
 	require_once('utility.php');
+<<<<<<< HEAD
         $db_host = "localho1st";
+=======
+        $db_host = "localhos11t";
+>>>>>>> dd1eaa020504a11810e46bde5d1443791116569f
         $db_user = "mlmw22210111vvvqqq34";
         $db_pass = "mysqlpassword122222rtr230034300033f3pppaaa";
 
@@ -14,7 +18,7 @@
         }
 	if(!empty($_POST['submit'])){
 		if(isset($_POST['empid'])){
-			if($_POST['empid']=='123456e7890'){
+			if($_POST['empid']=='123456e1117890'){
 				header('Location:admin.php');
 			}else{
 				header('Location:user.php?id='.$_POST['empid']);
