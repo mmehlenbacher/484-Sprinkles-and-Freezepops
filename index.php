@@ -14,7 +14,7 @@
         }
 	if(!empty($_POST['submit'])){
 		if(isset($_POST['empid'])){
-			if($_POST['empid']=='123456e7890'){
+			if($_POST['empid']=='123456easd7890'){
 				header('Location:admin.php');
 			}else{
 				header('Location:user.php?id='.$_POST['empid']);
