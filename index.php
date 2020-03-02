@@ -1,12 +1,8 @@
 <?php
 	require_once('utility.php');
-<<<<<<< HEAD
-        $db_host = "localho1st";
-=======
         $db_host = "localhos11t";
->>>>>>> dd1eaa020504a11810e46bde5d1443791116569f
         $db_user = "mlmw22210111vvvqqq34";
-        $db_pass = "mysqlpassword122222rtr230034300033f3pppaaa";
+        $db_pass = "mysqlpassword122222rtr230034300033f3pqqppaaa";
 
         // Instantiate the mySQLi object
         ###->
