@@ -1,6 +1,6 @@
 <?php
 	require_once('utility.php');
-        $db_host = "localhost";
+        $db_host = "localhos11t";
         $db_user = "mlmw22210111vvvqqq34";
         $db_pass = "mysqlpassword122222rtr230034300033f3pppaaa";
 
