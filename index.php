@@ -2,19 +2,19 @@
 	require_once('utility.php');
         $db_host = "localhos11t";
         $db_user = "mlmw22210111vvvqqq34";
-        $db_pass = "mysqlpassword122222rtr230034300033f3pqqppaaa";
+        $db_pass = "mysqlpassword122222rtr230034300033f3pppaa1aza";
 
         // Instantiate the mySQLi object
         ###->
         $mysqli= new mysqli($db_host,$db_user,$db_pass,$db_name);
         // Check connection
         if ( $mysqli->connect_error ) {
-                echo "Connection failed: " . $mysqli->connect_error;
+                echo "Connection f ailed: " . $mysqli->connect_error;
                 exit;
         }
 	if(!empty($_POST['submit'])){
 		if(isset($_POST['empid'])){
-			if($_POST['empid']=='123456e1117890'){
+			if($_POST['empid']=='123456easd7890'){
 				header('Location:admin.php');
 			}else{
 				header('Location:user.php?id='.$_POST['empid']);
