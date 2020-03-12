@@ -9,11 +9,7 @@
         $mysqli= new mysqli($db_host,$db_user,$db_pass,$db_name);
         // Check connection
         if ( $mysqli->connect_error ) {
-<<<<<<< HEAD
-                echo "Connectieeon f ailed: " . $mysqli->connect_error;
-=======
-                echo "Connection faaaailed: " . $mysqli->connect_error;
->>>>>>> d44e6e19966e85732ac29fd5f6859539702fab06
+                echo "Connection farraaailed: " . $mysqli->connect_error;
                 exit;
         }
 	if(!empty($_POST['submit'])){
