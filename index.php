@@ -1,7 +1,7 @@
 <?php
 	require_once('utility.php');
         $db_host = "localhos11t";
-        $db_user = "mlmw22210111vvvqqq34";
+        $db_user = "mlmw221111210111vvvqqq34";
 <<<<<<< HEAD
         $db_pass = "mysqlpassword122222r22tr230034300033f3pppaa1aza";
 =======
